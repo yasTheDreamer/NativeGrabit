@@ -1,11 +1,12 @@
 import React from 'react';
 import {View} from 'react-native';
-import Home from './src/scenes/home/HomeScreen';
+import HomeScreen from './src/scenes/home/HomeScreen';
+import SignScreen from './src/scenes/sign/SignScreen';
 
 const App = () => {
   return (
     <View>
-      <Home />
+      <SignScreen />
     </View>
   );
 };

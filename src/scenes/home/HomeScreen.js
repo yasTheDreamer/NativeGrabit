@@ -1,10 +1,10 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
 import BackScene from '../../components/molecules/home_backscene/BackScene';
 import Headline from '../../components/atoms/headline/Headline';
 import SignButtons from '../../components/molecules/home_signButtons/signButtons';
 
-const Home = () => {
+const HomeScreen = () => {
   return (
     <View>
       <BackScene />
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeScreen;

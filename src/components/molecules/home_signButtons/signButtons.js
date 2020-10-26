@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {View} from 'react-native';
-import SignButton from '../../atoms/SignButton/SignButton';
+import SignButton from '../../atoms/signButton/SignButton';
 import styles from './signButtonsStyle';
 
 const signButtons = () => {
