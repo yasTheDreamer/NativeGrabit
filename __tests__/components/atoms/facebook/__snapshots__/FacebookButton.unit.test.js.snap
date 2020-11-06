@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Facebook component renders correctly 1`] = `
+<RCTFBLoginButton
+  onChange={[Function]}
+  onLoginFinished={[Function]}
+  style={
+    Object {
+      "height": 30,
+      "width": 190,
+    }
+  }
+/>
+`;

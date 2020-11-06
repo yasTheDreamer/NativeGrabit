@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1604663287292" clover="3.2.0">
+  <project timestamp="1604663287292" name="All files">
+    <metrics statements="78" coveredstatements="72" conditionals="4" coveredconditionals="0" methods="22" coveredmethods="20" elements="104" coveredelements="92" complexity="0" loc="78" ncloc="78" packages="18" files="35" classes="35"/>
+    <package name="NativeGrabit">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\App.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.assets.images">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Logo.png" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\assets\images\Logo.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="background.png" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\assets\images\background.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="circle.png" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\assets\images\circle.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="delivery.png" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\assets\images\delivery.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="whiteLogo.png" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\assets\images\whiteLogo.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.atoms.facebook">
+      <metrics statements="8" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="FacebookButton.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\facebook\FacebookButton.js">
+        <metrics statements="8" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.atoms.figure">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Figure.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\figure\Figure.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="19" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.atoms.headline">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Headline.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\headline\Headline.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+      </file>
+      <file name="headlineStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\headline\headlineStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.atoms.iconImage">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="IconImage.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\iconImage\IconImage.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.atoms.infoHeader">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="InfoHeader.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\infoHeader\InfoHeader.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+      </file>
+      <file name="InfoHeaderStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\infoHeader\InfoHeaderStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.atoms.infoText">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="InfoText.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\infoText\InfoText.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+      </file>
+      <file name="InfoTextStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\infoText\InfoTextStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.atoms.signButton">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="SignButton.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\atoms\signButton\SignButton.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.molecules.home_backscene">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="BackScene.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\home_backscene\BackScene.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="36" count="15" type="stmt"/>
+      </file>
+      <file name="backgroundStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\home_backscene\backgroundStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="deliveryStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\home_backscene\deliveryStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="logoStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\home_backscene\logoStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.molecules.home_signButtons">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="signButtons.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\home_signButtons\signButtons.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+      </file>
+      <file name="signButtonsStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\home_signButtons\signButtonsStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.molecules.infoBox">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="InfoBox.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\infoBox\InfoBox.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+      </file>
+      <file name="InfoBoxStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\infoBox\InfoBoxStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.molecules.sign_backscene">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="BackScene.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\sign_backscene\BackScene.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+      </file>
+      <file name="CircleStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\sign_backscene\CircleStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="LogoStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\molecules\sign_backscene\LogoStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.components.organisms.infoOrganism">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="InfoOrganism.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\organisms\infoOrganism\InfoOrganism.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+      </file>
+      <file name="InfoOrganismStyle.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\components\organisms\infoOrganism\InfoOrganismStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.navigations">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="StackNavigation.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\navigations\StackNavigation.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.scenes.home">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="HomeScreen.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\scenes\home\HomeScreen.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.scenes.sign">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="SignScreen.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\scenes\sign\SignScreen.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="NativeGrabit.src.styles">
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Colors.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\styles\Colors.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="Index.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\styles\Index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Typography.js" path="C:\Users\HP\Desktop\react-native-projects\NativeGrabit\src\styles\Typography.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

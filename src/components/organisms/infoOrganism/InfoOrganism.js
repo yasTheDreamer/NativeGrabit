@@ -4,7 +4,7 @@ import InfoBox from '../../molecules/infoBox/InfoBox';
 import styles from './InfoOrganismStyle';
 
 const InfoOrganism = () => {
-  const [infos, setInfos] = useState([
+  const [infos, setInfos] = useState([  
     {
       icon: 'dollar-sign',
       styles: {
