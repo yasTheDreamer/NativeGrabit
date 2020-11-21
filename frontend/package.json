@@ -9,7 +9,7 @@
     "test": "jest --verbose --silent Test.spec.js",
     "testCoverage": "jest --verbose --silent --coverage Test.spec.js",
     "lint": "eslint .",
-    "detox" : "detox test --configuration android.debug"
+    "detox": "detox test --configuration android.debug"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
