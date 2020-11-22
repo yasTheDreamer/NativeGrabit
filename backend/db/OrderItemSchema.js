@@ -7,3 +7,5 @@ const OrderItemSchema = new Schema({
   order_id: { type: Schema.Types.ObjectId, ref: "Order" },
   item_id: { type: Schema.Types.ObjectId, ref: "Item" },
 });
+
+export default mongoose.model("OrderItem", OrderItemSchema);
