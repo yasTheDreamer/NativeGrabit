@@ -4,14 +4,21 @@
   "private": true,
   "scripts": {
     "start": "node ./dist-server/bin/www.js",
-    "dev": "npm run transpile & nodemon ./dist-server/bin/www.js",
-    "transpile": "babel ./server --out-dir dist-server"
+    "dev": "npm run transpile & node ./dist-server/bin/www.js",
+    "transpile": "babel ./server --out-dir dist-server",
+    "watch:dev" : "nodemon"
+  
   },
   "babel": {
     "presets": [
       "@babel/preset-env"
     ]
   },
+  "nodemonConfig": { 
+  "exec": "npm run dev",
+  "watch": ["server/*", "public/*"],
+  "ignore": ["**/__tests__/**", "*.test.js", "*.spec.js"]
+},
   "dependencies": {
     "@babel/cli": "^7.12.7",
     "@babel/core": "^7.12.7",
