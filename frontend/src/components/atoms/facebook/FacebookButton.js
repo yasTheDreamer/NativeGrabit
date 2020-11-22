@@ -1,10 +1,12 @@
 import React from 'react';
 import {LoginButton, AccessToken} from 'react-native-fbsdk';
+import {getUserData} from '../../../js/facebookController';
 
 const FacebookButton = (props) => {
   return (
     <LoginButton
       style={props.style}
+      permissions={['email']}
       onLoginFinished={(err, res) => {
         if (err) {
           console.log(err);
@@ -12,11 +14,13 @@ const FacebookButton = (props) => {
           console.log('canceled login');
         } else {
           AccessToken.getCurrentAccessToken().then((data) => {
-            console.log(data.accessToken.toString());
+            getUserData(data.accessToken);
           });
         }
       }}
-      onLogoutFinished={console.log('logout')}
+      onLogoutFinished={(err, res) => {
+        console.log('logout');
+      }}
     />
   );
 };
