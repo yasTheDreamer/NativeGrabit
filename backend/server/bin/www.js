@@ -7,7 +7,7 @@
 import app from "../app";
 import debugLib from "debug";
 import http from "http";
-import db from "./db/dbConnection";
+import db from "../db/dbConnection";
 
 const debug = debugLib("backend:server");
 
