@@ -9,7 +9,7 @@ class UserBuilder {
   }
 
   withId(id) {
-    this.User.id = id;
+    this.User._id = id;
     return this;
   }
 
@@ -24,7 +24,7 @@ class UserBuilder {
   }
 
   withTelephone(tel) {
-    this.User.tel = tel;
+    this.User.telephone = tel;
   }
 
   withEmail(email) {
@@ -33,7 +33,7 @@ class UserBuilder {
   }
 
   withUserType(userType) {
-    this.User.type = userType;
+    this.User.user_type = userType;
     return this;
   }
 
