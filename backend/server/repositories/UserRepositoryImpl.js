@@ -1,15 +1,19 @@
 import UserRepository from "./UserRepository";
-import UserModel from "../db/UserSchema";
+import User from "../db/UserSchema";
 class UserRepositoryImpl extends UserRepository {
   constructor() {
     super();
   }
 
   update(user) {
-    const userToUpdate = new UserModel(user);
-    userToUpdate.save((err) => {
-      throw new Error(err);
-    });
+    const userToUpdate = new User(user);
+    console.log(userToUpdate);
+    if (userToUpdate) {
+      userToUpdate.save((err, res) => {
+        if (err) console.log("error is : " + err);
+        else console.log(res);
+      });
+    }
   }
 }
 

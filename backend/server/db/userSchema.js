@@ -10,7 +10,7 @@ const UserSchema = new Schema({
   email: { type: String, required: true },
   user_type: { type: Number, required: true },
   picture: { type: String, required: false },
-  actif: { type: Number, required: false },
+  actif: { type: Object, required: false },
 });
 
 export default mongoose.model("User", UserSchema);

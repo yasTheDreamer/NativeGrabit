@@ -1,6 +1,5 @@
 import UserRepositoryImpl from "../repositories/UserRepositoryImpl";
 import UserService from "./UserService";
-import User from "../models/UserBuilder";
 
 class UserServiceImpl extends UserService {
   constructor() {
@@ -9,11 +8,12 @@ class UserServiceImpl extends UserService {
 
   saveUser(user) {
     //business logic
-    if (!user && typeof user === "object") {
+    if (user && typeof user === "object") {
       try {
-        UserRepositoryImpl.update(user);
+        const UserRepository = new UserRepositoryImpl();
+        UserRepository.update(user);
       } catch (err) {
-        console.log("user may be undefined or not well structured");
+        console.log("user may be undefined or not well structured" + err);
       }
     }
   }

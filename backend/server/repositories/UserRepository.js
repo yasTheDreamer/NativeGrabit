@@ -4,11 +4,11 @@ class UserRepository {
       throw new TypeError("Cannot instantiate interface UserRepository");
 
     if (this.update === undefined)
-      throw new Error("Have to implement save method");
-    if (this.delete === undefined)
-      throw new Error("Have to implement delete method");
-    if (this.findAll === undefined)
-      throw new Error("Have to implement findAll method");
+      throw new Error("Have to implement update method");
+    // if (this.delete === undefined)
+    //   throw new Error("Have to implement delete method");
+    // if (this.findAll === undefined)
+    //   throw new Error("Have to implement findAll method");
   }
 }
 

@@ -2,10 +2,12 @@
  * builder pattern
  * or fluent interface pattern
  */
+import mongoose from "mongoose";
 
 class UserBuilder {
   constructor() {
     this.User = {};
+    this.User._id = new mongoose.Types.ObjectId();
   }
 
   withId(id) {
@@ -25,6 +27,7 @@ class UserBuilder {
 
   withTelephone(tel) {
     this.User.telephone = tel;
+    return this;
   }
 
   withEmail(email) {
